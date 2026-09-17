@@ -1,26 +1,26 @@
 class Uuid < Formula
   desc "Generate UUIDs straight to your clipboard"
   homepage "https://github.com/0xbenc/uuid"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xbenc/uuid/releases/download/v0.1.1/uuid_0.1.1_darwin_arm64.tar.gz"
-      sha256 "3ee7a0eb0f6d271f6f5faf2db48bf102cbecb2bfbbd422e92c5b8feb72061dd6"
+      url "https://github.com/0xbenc/uuid/releases/download/v0.1.2/uuid_0.1.2_darwin_arm64.tar.gz"
+      sha256 "deb0a7274ceddf26b18db763ced181eab5ff6d1859f481617b3f592499a4805c"
     else
-      url "https://github.com/0xbenc/uuid/releases/download/v0.1.1/uuid_0.1.1_darwin_amd64.tar.gz"
-      sha256 "52380f61ca2aef8d55aba80d9ed3b0eb2da41a4290f030e5adda09071a629f01"
+      url "https://github.com/0xbenc/uuid/releases/download/v0.1.2/uuid_0.1.2_darwin_amd64.tar.gz"
+      sha256 "02c9d610114ec862fdd9e0c14d5b40a573561ea9e74700b10bedf9b6abe8d4fa"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/0xbenc/uuid/releases/download/v0.1.1/uuid_0.1.1_linux_arm64.tar.gz"
-      sha256 "62a8cb9893e603c9e131c6500097a7796834963f4275f916385cfdaba5e88b9f"
+      url "https://github.com/0xbenc/uuid/releases/download/v0.1.2/uuid_0.1.2_linux_arm64.tar.gz"
+      sha256 "36ef67273012f8521eecab6a5cbd9e8cabe7dbca0867fead2f47fedd33c09f42"
     else
-      url "https://github.com/0xbenc/uuid/releases/download/v0.1.1/uuid_0.1.1_linux_amd64.tar.gz"
-      sha256 "f0405413a1f35c842cd5dc65cd96195142edfea7b8103dfa3c592d90bc00d0a5"
+      url "https://github.com/0xbenc/uuid/releases/download/v0.1.2/uuid_0.1.2_linux_amd64.tar.gz"
+      sha256 "f2dd774a26d535c4a2173e7f47b85348f2f013ccac4b17fe6a338e4cd11ac2e2"
     end
   end
 
