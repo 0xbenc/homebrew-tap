@@ -1,27 +1,27 @@
 class Tdef < Formula
   desc "Terminal tower defense: hold a dying dragon's lair"
   homepage "https://github.com/0xbenc/tdef"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     depends_on macos: :monterey
     if Hardware::CPU.arm?
-      url "https://github.com/0xbenc/tdef/releases/download/v1.0.0/tdef_1.0.0_darwin_arm64.tar.gz"
-      sha256 "e2dea473cd4104e1ade5337d942381e0ba781f54a50a6a4abd0c7debd402af7a"
+      url "https://github.com/0xbenc/tdef/releases/download/v1.1.0/tdef_1.1.0_darwin_arm64.tar.gz"
+      sha256 "2caec9e7d6d79c9ca5cf5e1e176206ee260fc59af9f34bd9c54d01c78f22b9f3"
     else
-      url "https://github.com/0xbenc/tdef/releases/download/v1.0.0/tdef_1.0.0_darwin_amd64.tar.gz"
-      sha256 "2b8b493d1dcbd30d38ee29879d22a29f8774954d348bd20c0408cead290c767c"
+      url "https://github.com/0xbenc/tdef/releases/download/v1.1.0/tdef_1.1.0_darwin_amd64.tar.gz"
+      sha256 "947855f1c3d5cb8d8f7a7a8c58d3e3ae4a5ca023400afb58ed380057aa05b807"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/0xbenc/tdef/releases/download/v1.0.0/tdef_1.0.0_linux_arm64.tar.gz"
-      sha256 "0a2d47ab6c86eb926308e82846eb9bf19b8142ca262f3beea300c05a62c660a4"
+      url "https://github.com/0xbenc/tdef/releases/download/v1.1.0/tdef_1.1.0_linux_arm64.tar.gz"
+      sha256 "2224fc56d1553d52b2bcce5a91cb0d00c20e3117f4aece8a82ba49991235d65b"
     else
-      url "https://github.com/0xbenc/tdef/releases/download/v1.0.0/tdef_1.0.0_linux_amd64.tar.gz"
-      sha256 "90c45971ff66e905caee95cfa18aba610bfd2723d658c606e4e4db317af90f84"
+      url "https://github.com/0xbenc/tdef/releases/download/v1.1.0/tdef_1.1.0_linux_amd64.tar.gz"
+      sha256 "1b753fea7d280508e4a65fed597fd62d26afb5c639f0583c4084810308799faf"
     end
   end
 
