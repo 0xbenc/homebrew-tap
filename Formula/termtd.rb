@@ -1,27 +1,27 @@
 class Termtd < Formula
   desc "Terminal tower defense: hold a dying dragon's lair"
   homepage "https://github.com/0xbenc/termtd"
-  version "1.4.1"
+  version "1.4.2"
   license "MIT"
 
   on_macos do
     depends_on macos: :monterey
     if Hardware::CPU.arm?
-      url "https://github.com/0xbenc/termtd/releases/download/v1.4.1/termtd_1.4.1_darwin_arm64.tar.gz"
-      sha256 "072761925f5b22f71d51fe1db8b163961221014c6809d420e7d2c8326b5c0554"
+      url "https://github.com/0xbenc/termtd/releases/download/v1.4.2/termtd_1.4.2_darwin_arm64.tar.gz"
+      sha256 "1602c47dabb45420fac4c8b56849d185b95027fe1ebfd32e93ac1a222d9c93fa"
     else
-      url "https://github.com/0xbenc/termtd/releases/download/v1.4.1/termtd_1.4.1_darwin_amd64.tar.gz"
-      sha256 "e3e46457d42ea9e5bf730d6d937d61a14d1592bfdb3a33d7e34c805acac915b1"
+      url "https://github.com/0xbenc/termtd/releases/download/v1.4.2/termtd_1.4.2_darwin_amd64.tar.gz"
+      sha256 "7e89b146d98a99a10248b2f0e197bf05d2c9d66e33487540ca0367ced7b9d892"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/0xbenc/termtd/releases/download/v1.4.1/termtd_1.4.1_linux_arm64.tar.gz"
-      sha256 "f459bd559513cd9b02d0b1aaa4aca4d15232b3af90f8693ac4ee502229535a66"
+      url "https://github.com/0xbenc/termtd/releases/download/v1.4.2/termtd_1.4.2_linux_arm64.tar.gz"
+      sha256 "0c5fcb793817a78020975fa15cfdfa18df2c064fdb778dc9b24991a774134843"
     else
-      url "https://github.com/0xbenc/termtd/releases/download/v1.4.1/termtd_1.4.1_linux_amd64.tar.gz"
-      sha256 "9faafdcaa29c703265d9ced5544399e22b3a2b58af4c72f10ee27f81e8e94248"
+      url "https://github.com/0xbenc/termtd/releases/download/v1.4.2/termtd_1.4.2_linux_amd64.tar.gz"
+      sha256 "f2a2dceb8c35178f0baeb467896e1e6625de323f46a6aa9bf7c2df89b1cc8c3a"
     end
   end
 
